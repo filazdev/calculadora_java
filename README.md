@@ -1,18 +1,41 @@
-## Getting Started
+# Calculadora Básica en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción
+Este proyecto es una calculadora básica desarrollada en Java utilizando la biblioteca Swing para la interfaz gráfica. Permite realizar operaciones aritméticas simples como suma, resta, multiplicación y división.
 
-## Folder Structure
+## Características
+- Interfaz de usuario desarrollada con `JFrame` y `JPanel`.
+- Botones numéricos del 0 al 9.
+- Operaciones básicas: suma, resta, multiplicación y división.
+- Funcionalidad de borrado de la pantalla de entrada.
+- Prevención de división entre cero.
 
-The workspace contains two folders by default, where:
+## Requisitos
+- Java SE Development Kit (JDK) 8 o superior.
+- Un entorno de desarrollo compatible (Eclipse, IntelliJ IDEA, NetBeans o cualquier editor de texto con soporte para Java).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Instalación y Ejecución
+1. Clonar o descargar este repositorio.
+2. Abrir el proyecto en el IDE de preferencia.
+3. Compilar y ejecutar la clase `Calculadora.java`.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Uso
+1. Iniciar la aplicación.
+2. Ingresar los números y seleccionar la operación deseada.
+3. Presionar el botón `=` para obtener el resultado.
+4. Utilizar el botón `C` para borrar la entrada.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estructura del Código
+- `Calculadora.java`: Clase principal que crea la interfaz y gestiona los eventos.
+- Uso de `JTextField` para mostrar los valores ingresados y los resultados.
+- Implementación de `ActionListener` para capturar eventos de los botones.
 
-## Dependency Management
+## Autor
+**Francisco Iván López Araiza Zavala**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Asesor
+**Dr. Marco Damián Cortés González**
+
+## Fecha
+04/10/2023
+
