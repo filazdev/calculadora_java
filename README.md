@@ -30,6 +30,11 @@ Este proyecto es una calculadora básica desarrollada en Java utilizando la bibl
 - Uso de `JTextField` para mostrar los valores ingresados y los resultados.
 - Implementación de `ActionListener` para capturar eventos de los botones.
 
+## Captura de pantalla
+
+![image](https://github.com/user-attachments/assets/c99b3608-2b32-45b6-802c-5b70cbc92b01)
+
+
 ## Autor
 **Francisco Iván López Araiza Zavala**
 
